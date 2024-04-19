@@ -1,0 +1,163 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures the navigation bar stays on top */
+}
+.nav-bar a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+.nav-bar a:hover {
+    color: white;
+}
+/* Example styling for sections */
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-margin-top: 50px; /* Adjusted to accommodate fixed navigation bar */
+}
+
+.page {
+    height: 100%;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.nav-bar{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+a{
+margin: 10px;
+text-decoration: none;
+color: black;
+}
+.container{
+height: 80%;
+padding: 50px;
+display: flex;
+
+}
+.container-1{
+width: 50%;
+position: relative;
+top: 75px;
+}
+.container-2{
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+button{
+height: 40px;
+width: 80px;
+border-radius: 20px;
+border-color: black;
+background-color: black;
+color: antiquewhite;
+position: relative;
+top: 100px;
+}
+button:hover{
+    cursor:pointer;
+}
+
+.myskill{
+display: flex;
+height: 80%;
+padding: 20px;
+background-color: grey;
+}
+.skills-1{
+width: 50%;
+position: relative;
+top: 100px;
+left: 50px;
+}
+.skills-1 p{
+position: relative;
+top: 10px;
+width: 400px;
+}
+.skills-2{
+margin-top: 50px;
+width: 50%;
+display: flex;
+flex-direction: column;
+height: 100%;
+
+
+}
+.box-1{
+border-top: 1px solid black;
+display: flex;
+flex: 1;
+
+
+}
+.title-1{
+width: 30%;
+}
+.h5-1{
+width: 70%;
+}
+
+.myprojects{
+display: flex;
+height: 80%;
+margin: 20px;
+}
+.project1{
+flex: 1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 5px;
+}
+#Calculator{
+width: 100%;
+border-top: 1px solid black;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+transform: translateY(50%);
+}
+#TO-DO{
+width: 100%;
+border-top: 1px solid black;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+
+}
+#Newsletter{
+width: 100%;
+border-top: 1px solid black;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+transform: translateY(-40%);
+
+}
